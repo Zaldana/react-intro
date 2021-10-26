@@ -8,8 +8,6 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./App.css";
-import "./components/common/Loading"
-import loading from "./components/common/Loading";
 
 //export
 export class App extends Component {
@@ -109,8 +107,7 @@ export class App extends Component {
 
         {/* if loading is true display loading div else */}
         {this.state.isLoading ? (
-          //loading component imported from common folder
-          <loading />
+          <div>...Loading</div>
         ) : (
             // display name, picture and abilities
           <div>

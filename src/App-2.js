@@ -26,8 +26,7 @@ export class App extends Component {
   handleShowPostArray = () => (
     <ul>
       {this.state.postArray.map(({ body, id }) => (
-        <li key={id}>
-          {body} <button onClick={() => this.handleDelete(id)}>Delete</button>
+        <li key={id}>{body}<button onClick={() => this.handleDelete(id)}>Delete</button>
         </li>
       ))}
     </ul>
