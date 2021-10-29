@@ -35,7 +35,8 @@ export class Pokemon extends Component {
             let result = await axios.get(
                 `https://pokeapi.co/api/v2/pokemon/${search}`
             );
-
+            
+            console.log(result);
             //setting the state with the results of the api 'GET' and error and loading states
             this.setState({
                 name: result.data.name,
@@ -72,6 +73,7 @@ export class Pokemon extends Component {
     //on click call the API function passing through the searh value in the function
     handleOnClick = async () => {
         this.fetchPokemonApi(this.state.search);
+        console.log(this.state);
     };
 
     render() {

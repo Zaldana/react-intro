@@ -185,17 +185,6 @@ export default App;
 //     </ul>
 //   )
   
-
-//   showAnimalList = () => {
-//     return (
-//       <ul>
-//         {this.state.list.map(({ item, id }) => {
-//           console.log(item);
-//           return <li key={id}>{item}</li>;
-//         })}
-//       </ul>
-//     );
-//   };
   
 //   //JSX Section
 //   //second

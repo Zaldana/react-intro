@@ -4,6 +4,7 @@ import "./components/common/Loading"
 import "./components/pokemon/Pokemon"
 import Pokemon from "./components/pokemon/Pokemon";
 
+
 //export
 export class App extends Component {
   

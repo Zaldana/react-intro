@@ -1,5 +1,6 @@
 //rfce (shortcut functional component)
 
+import React, { Component } from 'react'
 import PropTypes from "prop-types"
 
 //You can also pass the name, picture, abillitiesArray
