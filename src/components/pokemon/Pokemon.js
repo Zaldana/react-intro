@@ -91,9 +91,9 @@ export class Pokemon extends Component {
                     {/* button to call click function */}
                     <button onClick={this.handleOnClick}>Search</button>
                     {/* shorthand ternary same as:
-            {this.state.isError ? <span>{this.state.errorMessage}</span> : ""}
-            if error is not empty in state display error in div
-          */}
+                        {this.state.isError ? <span>{this.state.errorMessage}</span> : ""}
+                        if error is not empty in state display error in div
+                    */}
                     <div>
                         {this.state.isError && <span>{this.state.errorMessage}</span>}
                     </div>
